@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #C61066;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .esquerdo {
+    height: 100%;
+    background-color: #00B5FF;
+    width: 50%;
+}
+
+.container .direito {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .direito .formulario {
+    width: 300px;
+}
+
+.container .direito .formulario .topo h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container .direito .formulario .meio .campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container .direito .formulario .meio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .direito .formulario .meio .campo input {
+    height: 25px;
+    background-color: #EAF1F7;
+    border: 0;
+    border-radius: 2.5px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.container .direito .formulario .meio .campo label {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.container .direito .formulario .meio .aux {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+.container .direito .formulario .meio .aux .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.container .direito .formulario .meio .aux a {
+    color: #00B5FF;
+    text-decoration: none;
+}
+
+.container .direito .formulario .meio button {
+    border-radius: 2.5px;
+    border: none;
+    background-color: #00B5FF;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.container .direito .formulario .meio .conta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container .direito .formulario .meio .conta a {
+    color: #00B5FF;
+    line-height: 0;
+}
+
+.container .direito .formulario .meio .conta p {
+    line-height: 0;
+}
+
+.container .direito .formulario .fim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .direito .formulario .fim .itens {
+    display: flex;
+    gap: 25px;
+}
+
+.container .direito .formulario .fim i {
+    font-size: 30px;
+}
+
+.fa-facebook-f {
+    color: #C61066;
+}
