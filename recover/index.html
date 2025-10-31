@@ -7,27 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+<!--Codigo feito bom a biblioteca Tailwind-->
 <body>
     <div class="w-full h-screen flex">
         <!-- Esquerda -->
-        <div class="w-1/2 h-full bg-blue-950 flex flex-col justify-center items-center gap-4">
-   
-            <section class="text-white">
-                <h1 class=" mb-4 text-3xl">Digital College</h1>
-                
-                <p class=" mb-10 w-80">otimize sua rotina e de sues colaboladores com o nosso sistema.</p>
-            
-                <a href="../cadastro/index.html" class="no-underlin cursor-pointer"> 
-                    <button class="rounded-md p-3 bg-[#D81B60] w-3/5 active:bg-[#a1003b] hover:bg-[#fff] transition-all duration-700 hover:text-[#D81B60]"> Teste gratis </button>    
+        <div class="w-1/2 h-full bg-blue-950 flex  justify-center items-center flex-col text-white">
+            <section class="text-left">
+                <h1 class="text-2xl font-bold mb-2">Digital College</h1>
+                <p class=" flex max-w-100 mb-12">Otimize a sua rotina e de seus colaboradores com o nosso sistema.</p>
+                <a href="#" class="bg-[#D81B60] px-12 py-3 hover:bg-pink-300 text-xs">
+                    <button>Teste grátis</button>
                 </a>
             </section>
-
         </div>
         <!-- Direita -->
-        <div class="w-1/2 h-full bg-white-100">
-            
-        </div>  
+        <div class="w-1/2 h-full bg-[#F9FAFE] flex flex-col justify-center items-center">
+            <form action="#" class="flex flex-col justify-center items-center gap-5 bg-white shadow-xl h-[400px] w-[500px] rounded-xl mb-35">
+            <h1 class="font-bold text-2xl text-blue-700">Recuperar Senha</h1>
+            <p class="flex justify-center text-center">Informe o seu e-mail para que possamos lhe <br> enviar um link de recuperação</p>
+            <section class="flex flex-col w-110 gap-2 justify-center align-center">
+                <label for="email" class="mb-2">E-mail:</label>
+                <input type="email" name="" id="email" placeholder="nome@email.com" class="border rounded-sm border-gray-300 p-2" >
+            </section>
+            <button type="submit" class="bg-[#0B009D] text-white p-3 rounded-sm font-bold text-sm cursor-pointer">Enviar link de recuperação</button>
+            <a href="#">Voltar para login</a>
+            </form>
+        </div>
     </div>
 </body>
 
