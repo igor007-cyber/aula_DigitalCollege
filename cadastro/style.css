@@ -106,3 +106,57 @@ button:hover {
     align-items: center;
     margin-top: 10px;
 }
+
+@media(max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .esquerdo, .direito {
+        width: 100%;
+        height: 50%;
+        padding: 20px 0;
+    }
+
+    .direito {
+        padding: 20px 0;
+        background-color: #F5F5F5;
+    }
+
+    .direito .formulario {
+        width: 80%;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .direito .formulario .fim {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    
+}
+
+
+@media (max-width: 615px) {
+    .container .esquerdo {
+        display: none;
+    }
+
+    .container .direito {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 237px) {
+    .container .direito{
+        padding: 10px;
+    }
+}
