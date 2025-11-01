@@ -121,3 +121,21 @@ body {
 .fa-facebook-f {
     color: #C61066;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container .esquerdo,
+    .container .direito {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container .esquerdo img {
+        width: 100%;
+        height: auto;
+    }
+}

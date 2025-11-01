@@ -210,3 +210,30 @@ a {
     background-color: white;
     display: flex;
 }
+
+@media(max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container .esquerdo,
+    .container .direito {
+        width: 100%;
+        height: auto;
+    }
+
+    .container header .esquerda nav{
+        display: none;  
+    }
+
+    .container main .top h1{
+        font-size: 40px;
+    }
+
+    .container header{
+        padding: 0 10px;
+    }
+
+    
+}
